@@ -1,0 +1,714 @@
+/* 
+    Document   : MenuMaisa
+    Created on : Mar 8, 2018, 9:03:36 AM
+    Author     : Maisa Al-Mashaifari |    <Business Developer at Global Computers>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/*!
+ * Bootstrap v3.0.0
+ *
+ * Copyright 2013 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world by @mdo and @fat.
+ */
+
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+
+
+
+.navMaisabar-img{
+    display: block;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+@media (min-width: 768px) {
+    .navMaisabar-img{
+        display: none;
+         font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+    }
+    .navMaisa > li >a:hover,
+.navMaisa > li >a:focus {
+ background-color: #176bd8;
+  font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+    .navMaisa > li:hover,
+.navMaisa > li:focus {
+ background-color: #176bd8;
+  font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  
+}
+    
+}
+
+/*Samll*/
+.navMaisa {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background: #114C99;/*background: #2461af;*/
+        height: auto;
+         font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa:before,
+.navMaisa:after {
+  display: table;
+  content: " ";
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa:after {
+  clear: both;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa:before,
+.navMaisa:after {
+  display: table;
+  content: " ";
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa:after {
+  clear: both;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa > li {
+  position: relative;
+  display: block;
+	padding: 20px;
+	line-height: 70px;
+	letter-spacing: 0.3px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	font-size: 13.5px;
+	font-style:inherit;
+	color: rgba(255,255,255,0.7);
+        font-weight: lighter;
+	border: none;
+        margin-bottom: 10px;
+         font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.navMaisa > li > a:hover,
+.navMaisa > li > a:focus {
+    text-decoration: none;
+	color: rgba(255,255,255,1);
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+ 
+  
+}
+
+.navMaisa > li.disabled > a {
+  color: #999999;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa > li.disabled > a:hover,
+.navMaisa > li.disabled > a:focus {
+  color: #999999;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa .open > a,
+.navMaisa .open > a:hover,
+.navMaisa .open > a:focus {
+  border-color: #428bca;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa .navMaisa-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa > li > a > img {
+  max-width: none;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+
+@media (min-width: 768px) {
+    .navMaisa{
+         height: auto;
+        margin-left: 10%;
+        margin-right: 10%;
+  /*background: #2461af;*/
+        height: auto;
+        bottom: 0;
+        margin-bottom: -3%;
+         font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+    }
+    .navMaisa > li {
+	padding: 15px 10px 20px 10px;
+        margin-bottom: 0px;
+        padding-bottom:  30px;
+        font-weight: lighter;
+         font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        }
+  
+}
+
+.navMaisa .caret {
+  border-top-color: #428bca;
+  border-bottom-color: #428bca;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisa a:hover .caret {
+  border-top-color: #2a6496;
+  border-bottom-color: #2a6496;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+
+.navMaisabar {
+  position: relative;
+  z-index: 1000;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar:before,
+.navMaisabar:after {
+  display: table;
+  content: " ";
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar:after {
+  clear: both;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar:before,
+.navMaisabar:after {
+  display: table;
+  content: " ";
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar:after {
+  clear: both;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .navMaisabar {
+    border-radius: 4px;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+}
+
+.navMaisabar-header:before,
+.navMaisabar-header:after {
+  display: table;
+  content: " ";
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-header:after {
+  clear: both;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-header:before,
+.navMaisabar-header:after {
+  display: table;
+  content: " ";
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-header:after {
+  clear: both;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .navMaisabar-header {
+    float: left;
+    height: 10%;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+}
+
+.navMaisabar-collapse {
+  max-height: 340px;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  border-top: 1px solid transparent;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-collapse:before,
+.navMaisabar-collapse:after {
+  display: table;
+  content: " ";
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-collapse:after {
+  clear: both;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-collapse:before,
+.navMaisabar-collapse:after {
+  display: table;
+  content: " ";
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-collapse:after {
+  clear: both;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-collapse.in {
+  overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  .navMaisabar-collapse {
+     overflow: no-display;
+	/*background: #2461af;*/
+        height: 30%;
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        font-weight: lighter;
+        
+        margin-left: 10%;
+        margin-right: 10%;
+         font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-collapse.in {
+    overflow-y: visible;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-collapse .navMaisabar-navMaisa.navMaisabar-left:first-child {
+    margin-left: -15px;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-collapse .navMaisabar-navMaisa.navMaisabar-right:last-child {
+    margin-right: -15px;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-collapse .navMaisabar-text:last-child {
+    margin-right: 0;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+}
+
+.container > .navMaisabar-header,
+.container > .navMaisabar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .container > .navMaisabar-header,
+  .container > .navMaisabar-collapse {
+    
+    /*background: #2461af;*/
+        height: 30%;
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        font-weight: lighter;
+        
+        margin-left: 10%;
+        margin-right: 10%;
+         font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+}
+
+
+.navMaisabar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 13.5px;
+  line-height: 20px;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-brand:hover,
+.navMaisabar-brand:focus {
+  text-decoration: none;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .navMaisabar > .container .navMaisabar-brand {
+    margin-left: -15px;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+}
+
+.navMaisabar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .navMaisabar-toggle {
+    display: none;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-inverse {
+       
+  overflow: no-display;
+	/*#114C99;*//*background: #2461af;*/
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        margin-bottom: -3%;
+        margin-left: 50%;
+        margin-right: 50%;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  
+}
+}
+
+.navMaisabar-navMaisa {
+  margin: 7.5px -15px;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-navMaisa > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  height: 25px;padding:10px 10px 0px 10px;text-decoration: none;font-size: 13.5px;
+        font-weight: lighter;color: white;
+         font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+@media (max-width: 767px) {
+  .navMaisabar-navMaisa .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 3%;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    background-color: #f1f1f1;;
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+   
+   width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .navMaisabar-navMaisa .open .dropdown-menu > li > a,
+  .navMaisabar-navMaisa .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-navMaisa .open .dropdown-menu > li > a {
+    line-height: 20px;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-navMaisa .open .dropdown-menu > li > a:hover,
+  .navMaisabar-navMaisa .open .dropdown-menu > li > a:focus {
+    background-image: none;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  .navMaisabar-navMaisa {
+    float: left;
+    margin-bottom: -3%;overflow: no-display;
+	/*background: #2461af;*/
+        height: 30%;
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        width: 100%;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-navMaisa > li {
+    float: left;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-navMaisa > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 25px;padding:10px 10px 0px 10px;text-decoration: none;font-size: 13.5px;font-weight: lighter;color: white;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  .navMaisabar-left {
+    float: left !important;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-right {
+    float: right !important;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+}
+
+.navMaisabar-navMaisa > li > .dropdown-menu {
+  margin-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  
+    margin-top: -3%;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    background-color: #f1f1f1;;
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+   
+   width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+
+.navMaisabar-text {
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .navMaisabar-text {
+    margin-right: 15px;
+    margin-left: 15px;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  
+
+}
+
+
+
+
+
+@media (max-width: 767px) {
+
+
+.navMaisabar-inverse {
+  overflow: no-display;
+	/*background: #2461af;*/
+        height: fit-content;
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        
+        margin-left: 50%;
+        margin-right: 50%;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  
+}
+
+.navMaisabar-inverse .navMaisabar-brand {
+  color: #999999;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-brand:hover,
+.navMaisabar-inverse .navMaisabar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-text {
+  color: #999999;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-navMaisa > li > a {
+  padding: 0px 20px 0px 20px;
+	line-height: 70px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	text-transform: uppercase;
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	font-size: 13.5px;
+	font-style:inherit;
+	color: rgba(255,255,255,0.7);
+	border: none;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  
+  
+	
+}
+
+.navMaisabar-inverse .navMaisabar-navMaisa > li > a:hover,
+.navMaisabar-inverse .navMaisabar-navMaisa > li > a:focus {
+  text-decoration: none;
+	color: rgba(255,255,255,1);
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+         font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  
+}
+
+.navMaisabar-inverse .navMaisabar-navMaisa > .active > a,
+.navMaisabar-inverse .navMaisabar-navMaisa > .active > a:hover,
+.navMaisabar-inverse .navMaisabar-navMaisa > .active > a:focus {
+ background-color: #114C99;
+    color: rgba(255,255,255,1);;
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-navMaisa > .disabled > a,
+.navMaisabar-inverse .navMaisabar-navMaisa > .disabled > a:hover,
+.navMaisabar-inverse .navMaisabar-navMaisa > .disabled > a:focus {
+  background-color: #114C99;
+    color: rgba(255,255,255,1);;
+        font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-toggle {
+  border-color: #333333;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-toggle:hover,
+.navMaisabar-inverse .navMaisabar-toggle:focus {
+  background-color: #333333;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-toggle .icon-bar {
+  background-color: #ffffff;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-collapse,
+.navMaisabar-inverse .navMaisabar-form {
+  border-color: #101010;
+ 
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  
+}
+
+.navMaisabar-inverse .navMaisabar-navMaisa > .open > a,
+.navMaisabar-inverse .navMaisabar-navMaisa > .open > a:hover,
+.navMaisabar-inverse .navMaisabar-navMaisa > .open > a:focus {
+  color: #ffffff;
+  background-color: #114C99;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-navMaisa > .dropdown > a:hover .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-navMaisa > .dropdown > a .caret {
+  border-top-color: #999999;
+  border-bottom-color: #999999;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-navMaisa > .open > a .caret,
+.navMaisabar-inverse .navMaisabar-navMaisa > .open > a:hover .caret,
+.navMaisabar-inverse .navMaisabar-navMaisa > .open > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+.navMaisa > li {
+        margin-bottom: 0px;
+        padding:10px;
+        padding-bottom: 15px;
+         font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        }
+  
+}
+@media (max-width: 767px) {
+    
+  .navMaisabar-inverse .navMaisabar-navMaisa .open .dropdown-menu > .dropdown-header {
+    border-color: #114C99;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+    
+  }
+  .navMaisabar-inverse .navMaisabar-navMaisa .open .dropdown-menu > li > a {
+    color: #999999;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-inverse .navMaisabar-navMaisa .open .dropdown-menu > li > a:hover,
+  .navMaisabar-inverse .navMaisabar-navMaisa .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-inverse .navMaisabar-navMaisa .open .dropdown-menu > .active > a,
+  .navMaisabar-inverse .navMaisabar-navMaisa .open .dropdown-menu > .active > a:hover,
+  .navMaisabar-inverse .navMaisabar-navMaisa .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #114C99;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  .navMaisabar-inverse .navMaisabar-navMaisa .open .dropdown-menu > .disabled > a,
+  .navMaisabar-inverse .navMaisabar-navMaisa .open .dropdown-menu > .disabled > a:hover,
+  .navMaisabar-inverse .navMaisabar-navMaisa .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+     font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+}
+
+.navMaisabar-inverse .navMaisabar-link {
+  color: #999999;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.navMaisabar-inverse .navMaisabar-link:hover {
+  color: #ffffff;
+   font-size: 13.5px;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+  
+  

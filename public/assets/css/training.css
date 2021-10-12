@@ -1,0 +1,1558 @@
+html, body {
+	height: 100%;
+        width: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #F8F8F8 url(../images/overlay.png) repeat;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	font-size: 12pt;
+        width: 100%;
+	font-weight: 400;
+	color: rgba(0,0,0,.8);
+        overflow: auto;
+}
+
+h1, h2, h3 {
+	 margin: 0px 0px 10px 0px;
+	padding: 0;
+	text-transform: uppercase;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	font-weight: 300;
+	color: #2D2D2D;
+}
+
+h2 {
+	padding: 0px 0px 30px 0px;
+	font-size: 2.50em;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+p {
+	line-height: 180%;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+strong {
+}
+
+a {
+	color: rgba(0,0,0,.8);
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+.link img {
+	border: none;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+a img {
+	border: none;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+a .red-tooltip {
+	border: none;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+.image1
+	{
+		display: inline-block;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+        .image1 img
+	{
+		display: block;
+		width: 95%;
+                text-align: center;
+                margin-left: 2%;
+                margin-right: 2%;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+        .image1-full1
+	{
+		display: block;
+		/*width: 930px;*/
+                width:100%;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+         .col-lg-Maisa-1 {
+    margin-left: -7.2%;
+  }
+  .col-lg-Maisa {
+    width: 100%;
+  }
+@media (min-width: 768px) {
+     .col-lg-Maisa-1 {
+    margin-left: 7.2%;
+  }
+  
+  .col-lg-Maisa {
+    width: 85.33333333%;
+  }
+    
+	.image1
+	{
+		display: inline-block;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+        
+	
+	.image1 img
+	{
+		display: block;
+		width: 100%;
+                
+                font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+	.image1-Maisa
+	{
+		display: block;
+		/*width: 930px;*/
+                height: 350px;
+                width:55%;
+                /*width: 65%;*/
+		margin: 0 5em 2em 6em;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+        .image1-Maisa img{
+            height: 350px;
+                width:55%;
+        }
+	.image1-full1
+	{
+		display: block;
+		/*width: 930px;*/
+                
+                width: 75%;
+		margin-left: 0%;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+        
+        .image1-full2
+	{border-style: dashed;
+		display: block;
+		/*width: 1200px;
+		margin: 0 0 4em 0;*/
+                width: 100%;
+		
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+	
+	.image1-left1
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+	
+	.image1-centered1
+	{
+		display: block;
+		margin: 0 0 2em 0;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+	
+	.image1-centered1 img
+	{
+		margin: 0 auto;
+		width: auto;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+}
+
+
+hr {
+	display: none;
+}
+
+/** WRAPPER */
+#wrapper1 {
+	width: 100%;
+}
+@media (min-width: 768px) {
+    #wrapper1 {
+            background: #FFF;
+            margin: 0px 0px;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+    }
+}
+
+
+.container1 {
+	width: 100%;
+        overflow: auto;
+	margin: 0px auto;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.clearfix1 {
+	clear: both;
+}
+
+/** HEADER */
+#header1{
+    display: none;
+}
+#header1-wrapper1
+{
+	background: #E2E2E2 url(../images/overlay.png) repeat;
+	background-size: cover;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        height: auto;
+            
+}
+@media (min-width: 768px) {
+    #header1-wrapper1
+{
+	background: #E2E2E2 url(../images/overlay.png) repeat;
+	background-size: cover;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        height: fit-content;
+        padding: -10%
+            
+}
+   
+#header1 {
+    display: block;
+	position: relative;
+        width: 75%;
+	overflow: hidden;
+	height: 160px;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+}
+
+
+
+
+#social1
+{
+	position: absolute;
+	top: 4em;
+	right: 0;
+	color:#114C99;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+/** LOGO */
+
+#logo1 {
+	position: absolute;
+	top: 0.6em;
+	left: 0;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+#logo1 h1, #logo1 p {
+	margin: 0;
+	padding: 0;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+#logo1 h1 {
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-size: 3.5em;
+	color: #FFF;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+#logo1 p {
+	padding: 0px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-size: 0.12em;
+	color: #FFF;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+#logo1 p a {
+	color: #FFF;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+#logo1 a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFF;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+
+/*********************************************************************************/
+/** HEADER LINKS /MENU *//*********************************************************************************/
+
+ /* before menu*/
+/*
+#menu1 {
+	overflow: hidden;
+	background: #114C99;
+        height: fit-content;
+       
+}
+
+#menu1 ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+       
+}
+
+#menu1 li {
+	display: inline-block;
+       
+}
+
+#menu1 a {
+	display: block;
+	padding: 0px 20px 0px 20px;
+	line-height: 70px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 13.5px;
+	font-style:inherit;
+	color: rgba(255,255,255,0.7);
+	border: none;
+       
+}
+
+#menu1 a:hover, #menu1 .current_page_item1 a {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+       
+}
+
+#menu1 .current_page_item1 a {
+}
+
+#menu1 .last1 {
+	border-right: none;
+       
+}
+
+
+
+#menu1 a:hover, #menu1 .current_page_item1 a {
+    
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+       
+}
+
+#menu1 .current_page_item1 a  {
+}
+
+#menu1 .last1 {
+	border-right: none;
+       
+}
+
+
+
+
+#menu1 .current_page_item1:hover > ul
+{
+
+    display: inline-block;
+    width: 300px;
+    margin-top: 30%;
+    position: absolute;
+   
+}
+ #menu1 .current_page_item1 .dropdown {
+    float: left;
+    overflow: hidden;
+   
+}
+#menu1 .current_page_item1 .dropdown > .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+}
+#menu1 .current_page_item1 .dropdown-toggle:hover .dropdown-content {
+    display: block;
+   
+}
+#menu1 .current_page_item1   .dropdown-toggle {
+    color: rgba(255,255,255,0.7);
+   
+}
+#menu1 .current_page_item1  .dropdown-toggle:hover {
+    color: rgba(255,255,255,1);
+   
+}
+
+
+#menu1 .current_page_item1 >  ul {
+    position: relative;
+    display: none;
+    top: 10px;
+    background-color: #f1f1f1;
+   
+   width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+}
+#menu1 .current_page_item1 >  ul > li {
+    display: inline-table;
+   
+}
+
+#menu1 .current_page_item1 >  ul a:hover {
+    background-color: #114C99;
+    color: rgba(255,255,255,1);
+   
+}
+#menu1 .current_page_item1 >  ul a {
+    color: black;
+   
+}
+
+
+ 
+ 
+ 
+#menu1  .current_page_item1 > ul {
+    right:5%;
+    left: 5%;
+    
+}
+
+ 
+#menu1 {
+	overflow: hidden;
+	background: #114C99;
+         z-index: 3010;
+}
+
+#menu1 ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu1 li {
+	display: inline-block;
+}
+
+#menu1 a {
+	display: block;
+	padding: 0px 20px 0px 20px;
+	line-height: 70px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 13.5px;
+	font-style:inherit;
+	color: rgba(255,255,255,0.7);
+	border: none;
+}
+
+#menu1 a:hover, #menu1 .current_page_item1 a {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+}
+
+#menu1 .current_page_item1 a {
+    color: rgba(255,255,255,0.7);
+}
+
+#menu1 .last1 {
+	border-right: none;
+}
+*/
+/* user Menu */
+#menu12 {
+	overflow: no-display;
+	background: #114C99;/*background: #2461af;*/
+        height: fit-content;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 7;*/
+}
+
+#menu12 ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 7;*/
+}
+
+#menu12 li {
+	display: inline-block;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 7;*/
+}
+
+#menu12 a {
+	display: block;
+	padding: 0px 20px 0px 20px;
+	line-height: 70px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	font-size: 13.5px;
+	font-style:inherit;
+	color: rgba(255,255,255,0.7);
+	border: none;
+       /* z-index: 7;*/
+}
+
+#menu12 a:hover, #menu12 .current_page_item12 a {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 7;*/
+}
+
+#menu12 .current_page_item12 a {
+}
+
+#menu12 .last12 {
+	border-right: none;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 7;*/
+}
+
+
+
+#menu12 a:hover, #menu12 .current_page_item12 a {
+    
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 7;*/
+}
+
+#menu12 .current_page_item12 a  {
+}
+
+#menu12 .last12 {
+	border-right: none;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 7;*/
+}
+
+
+
+
+#menu12 .current_page_item12:hover > ul
+{
+/*these 2 styles are very important,
+being the ones which make the drop-down to appear on hover */
+    display: block;
+    width: 300px;
+    margin-top: 20%;
+    position: absolute;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 8;*/
+}
+ #menu12 .current_page_item12 .dropdown {
+    float: left;
+    overflow: hidden;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 8;*/
+}
+#menu12 .current_page_item12 .dropdown > .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 8;*/
+}
+#menu12 .current_page_item12 .dropdown-toggle:hover .dropdown-content {
+    display: block;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 8;*/
+}
+#menu12 .current_page_item12   .dropdown-toggle {
+    color: rgba(255,255,255,0.7);;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 8;*/
+}
+#menu12 .current_page_item12  .dropdown-toggle:hover {
+    color: rgba(255,255,255,1);;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 8;*/
+}
+
+
+#menu12 .current_page_item12 >  ul {
+    position: relative;
+    display: none;
+    top: 10px;
+    background-color: #f1f1f1;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+   
+   width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+       /* z-index: 8;*/
+}
+#menu12 .current_page_item12 >  ul > li {
+    display: block;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 8;*/
+}
+
+#menu12 .current_page_item12 >  ul a:hover {
+    background-color: #114C99;
+    color: rgba(255,255,255,1);;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 8;*/
+}
+#menu12 .current_page_item12 >  ul a {
+    color: black;
+    text-align: left;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 8;*/
+}
+
+
+ 
+ 
+ 
+#menu12  .current_page_item12 > ul {
+    right:10%;
+    left: 10%;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+       /* z-index: 8;*/ 
+}
+
+
+
+/** CONTENT  */
+
+#page {
+       
+        min-height: 295px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        
+        background-color: orange;
+}
+.pageSection{
+        margin:0%;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        /*overflow: scroll;*/
+        min-height: 296px;
+        background-color: white;
+    }
+    #imgLeft{
+        width:100%;
+    }
+    #imgRight{
+        width:100%;
+    }
+    #bodyApp{
+        margin-bottom:  2%;
+    }
+    #bodyNEW{
+        margin-bottom:  2%;margin-right: 3%;margin-left: 3%;background-color: #E6E7E8;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        height: fit-content;width:95%;
+    }
+@media (min-width: 768px) {
+    .pageSection{
+        padding-left:  9.4%;
+        padding-top:  0.3%;
+        padding-right:  14.5%;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        overflow: hidden;
+        background-color: white;
+        min-height: 205px;
+    }
+    #imgLeft{
+        width:50%;
+        margin-left: 1.55%;
+    }
+    #imgRight{
+        width:50%;
+        margin-right: -2%;
+    }
+    #bodyApp{
+        margin-bottom:  2%;margin-left: 1.55%;
+    }
+    #bodyNEW{
+        margin-bottom:  2%;margin-right: -6%;background-color: #E6E7E8;font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        height: fit-content; width:250px;margin-left:  -0.5%;
+    }
+#page {
+       
+        min-height: 295px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        
+        background-color: white;
+}
+}
+
+	#page img
+	{
+		margin-bottom: 1em;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+
+	#page .title
+	{
+		margin-bottom: -1em;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+        #page .title h2
+	{
+		font-size: 1em;
+		font-weight: 200;
+		color: rgba(0,0,0,0.8);;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+        
+        .title2 
+	{
+		font-size: 1.5em;
+                font-weight: 400;
+                margin-left: 2%;
+                margin-bottom: -3%;
+		color: rgba(0,0,0,0.8);;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+       
+       
+        
+@media (max-width: 767px) {
+    
+	#page .title h2
+	{
+		font-size: 1.5em;
+		color: rgba(0,0,0,0.8);;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+         .title2 
+	{
+		font-size: 1.2em;
+		letter-spacing: 0.15em;
+		color: rgba(0,0,0,0.8);;
+                margin-bottom: -7%;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        font-weight: 250;
+	}
+}
+	
+	#page .title .byline
+	{
+		display: block;
+		padding-bottom: 2em;
+		color: rgba(0,0,0,0.7);;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+	
+#page .column1
+{
+	width: 850px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	
+}
+
+#page .button
+{
+	margin-top: 1em;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+/*********************************************************************************/
+/* MAIN CONTENT                                                           */
+/*********************************************************************************/
+
+
+#content {
+	float: left;
+	width:1200px;
+	padding-right: 50px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+#content .post-title
+{
+	margin-bottom: 2em;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+#content .post-title h2
+{
+	margin: 0;
+	padding: 0;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+
+#content .post
+{
+	margin-bottom: 4em;
+	padding-bottom: 4em;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+	
+	.title h2
+	{
+		margin: 0;
+		padding: 0;
+		font-size: 2.8em;
+		color: rgba(255,255,255,0.9);;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+	
+	.title .byline
+	{
+		padding-top: 0.50em;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.1em;
+		color: #6F6F6F;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+
+
+/*********************************************************************************/
+/* RIGHT AND LEFT / DOWNLOAD BROUCRE / NEWS                                                                     */
+/*********************************************************************************/
+
+	
+	/* Page */
+
+#page {
+	width: 1200px;
+	margin: 0px auto;
+	padding: 30px 0px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        
+        
+}
+
+/* Content */
+
+#content1 {
+	float: left;
+	width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+@media (min-width: 768px) {
+    #content1 {
+            float: left;
+            width: 75%;
+            padding-left: 2%;
+            padding-right: 2%;
+            
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+    }
+}
+
+.post1 {
+	overflow: hidden;
+	margin-bottom: 20px;
+        margin-bottom: -15px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        
+}
+
+.post1 .title {
+	margin: 0px;
+	padding: 4px 0px 10px 0px;
+	letter-spacing: 2px;
+	font-size:22px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.post1 .title a {
+	border: none;
+	letter-spacing: 1px;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: normal;
+	color: #000000;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.post1 .meta {
+	margin-bottom: 30px;
+	padding: 0px;
+	letter-spacing: 1px;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: normal;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.post1 .meta .date {
+	float: left;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.post1 .meta .posted {
+	float: right;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.post1 .meta a {
+	color: #148DFB;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+     
+        
+}
+
+.post1 .entry {
+        
+	padding: 0px 0px 100px 0px;
+	padding-bottom: 20px;
+	text-align: justify;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+.entry2 {
+        
+	padding: 0px 0px 100px 0px;
+	padding-bottom: 20px;
+        color:rgba(0,0,0,0.8);
+	text-align: justify;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+@media (min-width: 768px) {
+.entry2 {
+        
+	padding: 0px 0px 100px 20px;
+	padding-bottom: 20px;
+        color:rgba(0,0,0,0.8);
+	text-align: justify;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+}
+
+
+
+
+/*Register Button */
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #124C99;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.button:hover span {
+  padding-right: 25px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+#sidebar1 { 
+            width: 25%;
+            float: left;
+                padding-left: 10%;
+                padding-right: 5%;
+                
+                
+                
+            letter-spacing: 1px;
+            font-size:16px;;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+    #sidebarOther { 
+            width: 25%;
+            float: left;
+            padding-left: 10%;
+            padding-right: 5%;
+            margin-left: 0%;
+                
+                
+                
+            letter-spacing: 1px;
+            font-size:16px;;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+    #sidebar12 { 
+            width: 15%;
+            float: left;
+            padding-left: 0%;
+                padding-right: 3%;
+                
+                margin-top: 0%;
+                margin-bottom: 3%;
+                margin-left:     -3%;
+            letter-spacing: 1px;
+            font-size:16px;;
+            z-index: 12;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+
+#Me{
+    
+	padding-left:5px;
+	padding-right:5px;
+        background-color: #E6E7E8;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+/*********** Sidebar ************/
+@media (min-width: 768px) {
+    #sidebar1 { 
+            width: 25%;
+            float: right;
+                padding-left: 2%;
+                padding-right: 2%;
+                
+               /* margin-top: -43.5%;*/
+                 margin-top: -442px;
+            letter-spacing: 1px;
+            font-size:16px;;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+    
+    #sidebarOther { 
+            width: 25%;
+            float: right;
+                padding-left: 2%;
+                padding-right: 2%;
+                
+                margin-left: 30%;
+                margin-right: 0;
+                margin-top: -60.0%;
+            letter-spacing: 1px;
+            font-size:16px;;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+    #sidebar12 { 
+            width: 15%;
+            float: left;
+                padding-right: 2%;
+                
+                margin-top: 0%;
+                margin-left:     -3%;
+            letter-spacing: 1px;
+            font-size:16px;;
+            z-index: 12;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+}
+
+#sidebarOther div {
+	margin: 0;
+        
+	padding-left:5px;
+	padding-right:5px;
+	list-style: none;
+	font-size:14px;
+        height: fit-content;
+        width: fit-content;
+        background-color: #E6E7E8;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+}
+#sidebarOther div h2 {
+	
+        background-color: #E6E7E8;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+}
+
+
+#sidebar1 div {
+	margin: 0;
+        
+	padding-left:5px;
+	padding-right:5px;
+	list-style: none;
+	font-size:14px;
+        height: fit-content;
+        width: fit-content;
+        background-color: #E6E7E8;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+}
+#sidebar1 div h2 {
+	
+        background-color: #E6E7E8;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+}
+
+
+#Me{
+    
+	padding-left:5px;
+	padding-right:5px;
+        background-color: #E6E7E8;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+#sidebar12 div {
+	margin: 0;
+        margin-right: 3%;
+	padding-left:5px;
+	padding-right:5px;
+	list-style: none;
+	font-size:14px;
+        height: fit-content;
+        width: fit-content;
+        background-color: #E6E7E8;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+}
+#sidebar12 div h2 {
+	
+        background-color: #E6E7E8;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+}
+#download{
+    margin-top: 2px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+#download li {
+        letter-spacing: 1px;
+	list-style: circle;
+	font-style:normal;
+	text-decoration: none;
+	margin-left:  -10%;
+        text-align: left;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+}
+
+
+
+/* NEWS SLIDING */
+
+.holder { 
+  background-color:/*#E6E7E8;*/blue;
+  width:248px;
+  height:150px;
+  overflow:hidden;
+  padding:4px;;
+        
+}
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top: -20px;
+  width:300px;
+  height:50px;
+  z-index: 300;
+  overflow: hidden;
+  margin-top: -3%;
+        
+}
+.holder ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: relative;;
+  
+       
+}
+.holder ul li {
+  padding:5px 0px;;
+        
+}
+.holder ul li a {
+  color:#114C99;
+  text-decoration:none;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 0.8em 0em 0em 0em;
+		list-style: none;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.10em;
+		font-size: 1em;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	}
+	
+	ul.contact li a
+	{
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: none;
+		width: 40px;
+		height: 40px;
+		line-height: 80px;
+		text-align: center;
+		color: #6F6F6F;;
+	}
+	
+
+
+
+/*********************************************************************************/
+/* SLOGAN AND FOOTER
+/*********************************************************************************/
+
+/* Slogan */
+
+@media (min-width: 768px) {
+    #slogan {
+            overflow: hidden;
+            background: #F4F4F4;
+            padding: -6em 500px -6em 10px;
+            height:50px;;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+
+    #slogan p {
+            text-align: center;
+                    color: #E21E25;
+                    font-size:32px;
+                    float:right;
+                    padding-right:80px;;
+                    padding-bottom: 20%;
+                    margin-bottom: 5%;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+    #slogan p img{
+        margin-right: 85px;;
+        margin-bottom: 5%;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+    }
+}
+#slogan {
+	overflow: hidden;
+	background: #F4F4F4;
+	padding: -6em 500px -6em 10px;
+	height:50px;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+}
+#slogan p {
+            text-align: center;
+                    color: #E21E25;
+                    font-size:32px;
+                    float:right;
+                    padding-bottom: 20%;
+                    margin-bottom: 5%;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+
+#slogan p  img{
+    margin-top: 3%;
+    width: 70%;
+    margin-bottom: 5%;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+/* Footer */
+@media (min-width: 768px) {
+    #footer {
+            overflow: hidden;
+            background: #E6E7E8;;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+            /*padding: 2em 0px 2em 155px;*/
+
+    }
+
+    #footer p {
+            text-align: justify;
+                    color: #114C99;
+                    ;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+    }
+
+    #footer a {
+                    color: #114C99;;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+    #footer a:hover {
+                    color: white;;
+            font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+
+    }
+
+}
+#footer {
+	overflow: hidden;
+	background: #E6E7E8;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+	/*padding: 2em 0px 2em 155px;*/
+       
+}
+
+#footer p {
+	text-align: justify;
+		color: #114C99;
+                ;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+#footer a {
+		color: #114C99;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+               
+}
+#footer a:hover {
+		color: white;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+               
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.BoldLinknotDotted1{
+    margin-bottom: 1%;
+    text-align: center;
+     color : #124C99;
+     cursor: pointer;
+     background:none!important;
+     border:none; 
+     padding:0!important;
+     cursor:pointer;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+.BoldLinknotDotted1:hover {
+    color: black;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.BoldLinknotDotted{
+    margin-bottom: 1%;
+    text-align: center;
+    color : #124C99;
+     cursor: pointer;
+     background:none!important;
+     border:none; 
+     padding:0!important;
+     cursor:pointer;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        
+}
+.BoldLinknotDotted:hover {
+    color: black;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+.BoldLink{
+    /*margin-bottom: 10%;*/
+   /* margin-top: -3%;*/
+   margin-top: -20%;margin-bottom: 40%;
+    text-align: center;
+    font-size: 10pt;
+     text-decoration: underline; 
+    text-decoration-style: dashed; 
+    color : #124C99;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+        position: static;
+        bottom: 2%;
+        left: 4%;
+        right: 4%;
+}
+.BoldLink:hover {
+    color: white;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-bold-extra{
+    font-weight: 900;
+}
+.text-colorMain{
+    color:#124d9c;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.carousel-Link h5, .carousel-Link p {
+    color:black;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+    
+}
+.carousel-Link h5:hover,.carousel-Link p:hover{
+    color:white;;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+
+  
+  .col-lg-Maisa-1 {
+    margin-left: 7.2%;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  
+  .col-lg-Maisa {
+    width: 85.33333333%;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+  }
+  
+ .title-Maisa {
+	margin-bottom:  20px;
+        margin-top:  -20px;
+	padding: 4px 0px 10px 0px;
+	letter-spacing: 2px;
+	font-size:22px;
+        text-align: center;
+        text-transform:none;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+  .title-MaisaHeader11 {
+	
+        width: 100%;
+	padding: 4px 0px 10px 0px;
+	letter-spacing: 2px;
+	font-size:22px;
+        text-align: center;
+        text-transform:none;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+.title-MaisaHeader11::first-letter {
+    font-size: 150%;
+    color: red;
+        
+} 
+ .title-MaisaHeader {
+	
+        width: 100%;
+	padding: 4px 0px 10px 0px;
+	letter-spacing: 2px;
+	font-size:22px;
+        text-align: left;
+        text-transform:none;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+.title-MaisaHeader::first-letter {
+    font-size: 150%;
+    color: red;
+        
+}
+
+.first-letter1 {
+    font-size: 150%;
+    color: red;
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+th, td , .active , .danger, .warning , .success{
+        font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+    
+}
+.button1{
+    font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+}
+
+
+.link_Page{
+    font-family: 'Varela Round',  'Source Sans Pro',Helvetica, sans-serif;
+    color:#114C99;
+}
+.link_Page:hover{
+    color:red;
+}
