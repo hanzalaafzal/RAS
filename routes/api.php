@@ -23,3 +23,7 @@ Route::post('/api/v1/login','API\AuthController@Auths');
 Route::middleware('auth:api')->get('/api/v1/user', function (Request $request) {
     return auth()->user();
 });
+
+Route::post('/v1/vehicle/register','API\VehiclesController@RegisterVehicle');
+Route::post('/v1/vehicle/verify','API\VehiclesController@verifyVehicle');
+Route::get('/v1/vehicle/categories','API\VehiclesController@getCategories');
