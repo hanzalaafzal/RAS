@@ -23,8 +23,8 @@ class CreateVehicles extends Migration
             $table->string('chassisno')->unique();
             $table->string('owner');
             $table->string('vmm')->nullable();
-            $table->string('apDate')->nullable();
-            $table->string('exDate')->nullable();
+            $table->date('apDate')->nullable();
+            $table->date('exDate')->nullable();
             $table->string('validExpiry');
             $table->string('validStatus');
             $table->string('rasic');
