@@ -32,17 +32,17 @@
               </table>
               @if(!empty($data))
               <table width="100%" class="table table-striped table-bordered table-hover ">
-                    <tbody><tr><th class="info" width="30%">Vehicle Category</th><td>{{$data[0]->category}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Fleet Number</th><td>{{$data[0]->fleet}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Registration/plate Number </th><td>{{$data[0]->vplate}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Chassis Number</th><td>{{$data[0]->chassisno}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Owner </th><td>{{$data[0]->owner}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Make &amp; Model </th><td>{{$data[0]->vmm}}</td></tr>
-                    <tr><th class="info" width="30%">Certificated by RAS Center</th><td>{{$data[0]->ras_center}}</td></tr>
-                    <tr><th class="info">Approval Date</th><td>{{$data[0]->apDate}}</td></tr>
-                    <tr><th class="info">Expiry Date</th><td>{{$data[0]->exDate}}</td></tr>
-                    <tr><th class="info">Valid in Term of Expiry Date</th><td class="success"> {{$data[0]->validExpiry}} </td></tr>
-                    <tr><th class="info">Valid in Term of Status Date</th><td class="success"> {{$data[0]->validStatus}}</td></tr>
+                    <tbody><tr><th class="info" width="30%">Vehicle Category</th><td>{{$data[0]['category']}}</td></tr>
+                    <tr><th class="info" width="30%">Vehicle Fleet Number</th><td>{{$data[0]['fleet']}}</td></tr>
+                    <tr><th class="info" width="30%">Vehicle Registration/plate Number </th><td>{{$data[0]['vplate']}}</td></tr>
+                    <tr><th class="info" width="30%">Vehicle Chassis Number</th><td>{{$data[0]['chassisno']}}</td></tr>
+                    <tr><th class="info" width="30%">Vehicle Owner </th><td>{{$data[0]['owner']}}</td></tr>
+                    <tr><th class="info" width="30%">Vehicle Make &amp; Model </th><td>{{$data[0]['vmm']}}</td></tr>
+                    <tr><th class="info" width="30%">Certificated by RAS Center</th><td>{{$data[0]['ras_center']}}</td></tr>
+                    <tr><th class="info">Approval Date</th><td>{{$data[0]['apDate']}}</td></tr>
+                    <tr><th class="info">Expiry Date</th><td>{{$data[0]['exDate']}}</td></tr>
+                    <tr><th class="info">Valid in Term of Expiry Date</th><td class="success"> {{$data[0]['validExpiry']}} </td></tr>
+                    <tr><th class="info">Valid in Term of Status Date</th><td class="success"> {{$data[0]['validStatus']}}</td></tr>
 
                     <!--tr><th class='info'>Is Current</th><td class='danger'>No, The Vehicle is Re-examnation </td></tr-->
 

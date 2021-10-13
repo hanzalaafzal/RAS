@@ -85,15 +85,16 @@ class VehicleController extends Controller
       if($req->has('method')){
 
         if($req->method=="false"){
-          $data=DB::table('vehicles')->where('vcode',$req->verficationCode)->get()->toArray();
+
+          $data=Vehicles::where('vcode',$req->verficationCode)->get()->toArray();
           if(!empty($data)){
-            $qr=base64_encode(QrCode::format('svg')->size(150)->generate(route('verifyvehicle').'?method=false&verficationCode='.$data[0]->vcode));
+            $qr=base64_encode(QrCode::format('svg')->size(150)->generate(route('verifyvehicle').'?method=false&verficationCode='.$data[0]['vcode']));
           }
 
         }else{
-          $data=DB::table('vehicles')->where('vplate',$req->plateNumber)->get()->toArray();
+          $data=Vehicles::where('vplate',$req->plateNumber)->get()->toArray();
           if(!empty($data)){
-            $qr=base64_encode(QrCode::format('svg')->size(150)->generate(route('verifyvehicle').'?method=true&plateNumber='.$data[0]->vplate));
+            $qr=base64_encode(QrCode::format('svg')->size(150)->generate(route('verifyvehicle').'?method=true&plateNumber='.$data[0]['vplate']));
           }
 
         }
