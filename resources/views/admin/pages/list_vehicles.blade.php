@@ -47,14 +47,15 @@
                                   <th width="10%">Approval Date</th>
                                   <th width="10%">Expiry Date</th>
                                   <th width="10%">Rasic No</th>
-                                  <th width="10%">Certificate</th>
+                                  <th width="10%">Action</th>
+                                  <!-- <th width="10%">Certificate</th> -->
                               </tr>
                               </thead>
                               <tbody>
 
                                 @foreach($vehicles as $veh)
                                   <tr>
-                                    <td> <a href="{{route('page.update.vehicle',$veh['vcode'])}}"> {{$veh['vcode']}}</a></td>
+                                    <td> <a style="color:blue" href="{{route('page.update.vehicle',$veh['vcode'])}}"> {{$veh['vcode']}}</a></td>
                                     <td>{{$veh['category']}}</td>
                                     <td>{{$veh['vplate']}}</td>
 
@@ -63,7 +64,8 @@
                                     <td>{{$veh['apDate']}}</td>
                                     <td>{{$veh['exDate']}}</td>
                                     <td>{{$veh['rasic']}}</td>
-                                    <td> <a href="{{route('certificate',$veh['vcode'])}}" style="color:blue;text-decoration:underline"> Generate </a> </td>
+                                    <td> <a class="btn btn-md" href="{{route('deleteVehicle',$veh['vcode'])}}">Delete</a> </td>
+                                    <!-- <td> <a href="{{route('certificate',$veh['vcode'])}}" style="color:blue;text-decoration:underline"> Generate </a> </td> -->
                                   </tr>
                                 @endforeach
                               </tbody>

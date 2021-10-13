@@ -10,6 +10,12 @@ use App\Vehicles;
 class VehicleController extends Controller
 {
 
+    public function deleteVehicle($vcode){
+      DB::table('vehicles')->where('vcode',$vcode)->delete();
+      session()->flash('success','Vehicle Deleted');
+      return redirect()->back();
+    }
+
     public function updateVehicle(Request $req){
       $req->validate([
         'category' => 'required',
