@@ -36,13 +36,7 @@
                                 <div class="form-group row">
                                   <label class="col-sm-2 col-form-label text-right">Category *</label>
                                   <div class="col-sm-10">
-                                      <select class="form-control" required id="typeSelection" name="category">
-                                          <option selected disabled>Select Category</option>
-                                          @foreach($cats as $cat)
-                                            <option value="{{$cat->cat_id}}">{{$cat->cat_name}}</option>
-                                          @endforeach
-
-                                      </select>
+                                      <input type="text" name="category" value="{{old('category')}}" required class="form-control">
                                   </div>
                                 </div>
                                 <div class="form-group row">
