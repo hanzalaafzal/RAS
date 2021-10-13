@@ -27,11 +27,9 @@
                       </td>
                   </tr>
                   <tr><th>Verification Code</th><td>
-                    @if(isset(request()->input('verficationCode')))
-                      <input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value='{{$data[0]["vcode"]}}'>
-                    @else
-                      <input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value=''>
-                    @endif
+                    
+                      <input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value='{{request()->input("verficationCode")}}'>
+
 
                   </td></tr>
                   <tr><th>Vehicle Plate Number </th><td><input type='text' class='form-control' name='plateNumber' id='plateNumber' readonly="true" value=''></td></tr>
