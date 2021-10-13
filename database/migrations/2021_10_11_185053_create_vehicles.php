@@ -16,7 +16,7 @@ class CreateVehicles extends Migration
         Schema::create('vehicles', function (Blueprint $table) {
             $table->id('vid');
             $table->string('vcode')->unique();
-            $table->unsignedTinyInteger('category');
+            $table->string('category');
             $table->string('vplate')->unique();
             $table->string('fleet')->nullable();
             $table->string('regno')->unique();
@@ -30,6 +30,7 @@ class CreateVehicles extends Migration
             $table->string('rasic')->unique();
             $table->string('inspector')->nullable();
             $table->string('vapproval')->nullable();
+            $table->string('ras_center')->nullable();
             $table->timestamps();
         });
     }

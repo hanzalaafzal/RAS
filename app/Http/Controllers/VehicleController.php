@@ -58,6 +58,7 @@ class VehicleController extends Controller
         'rasic' => 'required|unique:App\Vehicles,rasic',
         'inspector' => 'required',
         'vapproval' => 'required',
+        'ras_center' => 'nullable',
       ],[
         'vcode.unique' => 'Verification Code exists.',
         'vplate.unique' => 'Vehicle with same number exists.',
