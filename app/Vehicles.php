@@ -11,6 +11,6 @@ class Vehicles extends Model
   protected $primaryKey = 'vid';
 
   protected $fillable = [
-      'category', 'vcode', 'vplate','regno','chassisno','owner' , 'apDate' , 'exDate', 'validExpiry' , 'validStatus' , 'rasic' , 'inspector' ,'vapproval'
+      'category', 'vcode', 'vplate','regno','chassisno','owner' , 'apDate' , 'exDate', 'validExpiry' , 'validStatus' , 'rasic' , 'inspector' ,'vapproval','ras_center'
   ];
 }
