@@ -27,7 +27,7 @@ class VehicleController extends Controller
         'ras_center' => 'nullable',
       ]);
 
-      if(Vehicle::where('vid',$req->vid)->update($req->all())){
+      if(Vehicles::where('vid',$req->vid)->update($req->all())){
         session()->flash('success','Success');
         return redirect()->back();
       }else{
