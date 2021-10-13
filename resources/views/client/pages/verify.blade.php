@@ -27,7 +27,7 @@
                       </td>
                   </tr>
                   <tr><th>Verification Code</th><td>
-                    @if(isset($data))
+                    @if(isset(request()->input('verficationCode')))
                       <input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value='{{$data[0]["vcode"]}}'>
                     @else
                       <input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value=''>
