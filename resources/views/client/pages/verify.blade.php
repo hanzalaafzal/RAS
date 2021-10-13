@@ -32,7 +32,7 @@
               </table>
               @if(!empty($data))
               <table width="100%" class="table table-striped table-bordered table-hover ">
-                    <tbody><tr><th class="info" width="30%">Vehicle Category</th><td>{{$data[0]->cat_name}}</td></tr>
+                    <tbody><tr><th class="info" width="30%">Vehicle Category</th><td>{{$data[0]->category}}</td></tr>
                     <tr><th class="info" width="30%">Vehicle Fleet Number</th><td>{{$data[0]->fleet}}</td></tr>
                     <tr><th class="info" width="30%">Vehicle Registration Number </th><td>{{$data[0]->regno}}</td></tr>
                     <tr><th class="info" width="30%">Vehicle Chassis Number</th><td>{{$data[0]->chassisno}}</td></tr>
