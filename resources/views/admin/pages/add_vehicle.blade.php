@@ -124,7 +124,7 @@
                                       </div>
                                       <label for="example-tel-input" class="col-sm-2 col-form-label">Name of Inspector*</label>
                                       <div class="col-sm-4">
-                                          <input type="text" name="inspector" class="form-control" value="{{old('inspector')}}" required>
+                                          <input type="text" name="inspector" class="form-control" value="TulasiramP" required>
                                           @error('inspector')
                                             <small style="color:red">{{$message}}</small>
                                           @enderror
@@ -133,7 +133,7 @@
                                 <div class="form-group row">
                                       <label for="example-tel-input" class="col-sm-2 col-form-label">Vehicle Approval*</label>
                                       <div class="col-sm-10">
-                                        <input type="text" name="vapproval" class="form-control" value="{{old('vapproval')}}" required>
+                                        <input type="text" name="vapproval" class="form-control" value="Blacktop and Granded Roads" required>
                                       </div>
 
                                 </div>
