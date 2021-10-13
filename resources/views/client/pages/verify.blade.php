@@ -26,7 +26,14 @@
                           <input type='radio' name='method' value='true' onchange="checkMethod();"> By Vehicle Plate/Regis Number
                       </td>
                   </tr>
-                  <tr><th>Verification Code</th><td><input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value=''></td></tr>
+                  <tr><th>Verification Code</th><td>
+                    @if(isset($data))
+                      <input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value='{{$data[0]["vcode"]}}'>
+                    @else
+                      <input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value=''>
+                    @endif
+
+                  </td></tr>
                   <tr><th>Vehicle Plate Number </th><td><input type='text' class='form-control' name='plateNumber' id='plateNumber' readonly="true" value=''></td></tr>
                   <tr><th colspan="2" class='text-center'><button class='btn btn-primary' type='submit'>Search <span class='fa fa-search '></span></button></th></tr>
               </table>
@@ -38,9 +45,9 @@
                     <tr><th class="info" width="30%">Vehicle Chassis Number</th><td>{{$data[0]['chassisno']}}</td></tr>
                     <tr><th class="info" width="30%">Vehicle Owner </th><td>{{$data[0]['owner']}}</td></tr>
                     <tr><th class="info" width="30%">Vehicle Make &amp; Model </th><td>{{$data[0]['vmm']}}</td></tr>
-                    <tr><th class="info" width="30%">Certificated by RAS Center</th><td>{{$data[0]['ras_center']}}</td></tr>
                     <tr><th class="info">Approval Date</th><td>{{$data[0]['apDate']}}</td></tr>
                     <tr><th class="info">Expiry Date</th><td>{{$data[0]['exDate']}}</td></tr>
+                    <tr><th class="info" width="30%">Certificated by RAS Center</th><td>{{$data[0]['ras_center']}}</td></tr>
                     <tr><th class="info">Valid in Term of Expiry Date</th><td class="success"> {{$data[0]['validExpiry']}} </td></tr>
                     <tr><th class="info">Valid in Term of Status Date</th><td class="success"> {{$data[0]['validStatus']}}</td></tr>
 

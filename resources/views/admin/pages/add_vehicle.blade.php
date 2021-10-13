@@ -102,8 +102,8 @@
                                       <label for="example-tel-input" class="col-sm-2 col-form-label">Valid in Term of Expiry</label>
                                       <div class="col-sm-4">
                                         <select class="form-control" name="validExpiry" required>
-                                          <option value="yes">Yes</option>
-                                          <option value="no">No</option>
+                                          <option value="Valid">Valid</option>
+                                          <option value="Invalid">Invalid</option>
                                         </select>
                                       </div>
                                       <label for="example-tel-input" class="col-sm-2 col-form-label">Valid in Term of Status date</label>
@@ -117,7 +117,7 @@
                                 <div class="form-group row">
                                       <label for="example-tel-input" class="col-sm-2 col-form-label">RASIC No*</label>
                                       <div class="col-sm-4">
-                                        <input type="text" name="rasic" class="form-control" value="{{old('rasic')}}" required>
+                                        <input type="text" name="rasic" class="form-control" value="RASIC1053/001" required>
                                         @error('rasic')
                                           <small style="color:red">{{$message}}</small>
                                         @enderror
