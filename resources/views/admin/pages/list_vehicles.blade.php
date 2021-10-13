@@ -64,7 +64,7 @@
                                     <td>{{$veh['apDate']}}</td>
                                     <td>{{$veh['exDate']}}</td>
                                     <td>{{$veh['rasic']}}</td>
-                                    <td> <a class="btn btn-md" href="{{route('deleteVehicle',$veh['vcode'])}}">Delete</a> </td>
+                                    <td> <a class="btn btn-md" href="{{route('delete.vehicle',$veh['vcode'])}}">Delete</a> </td>
                                     <!-- <td> <a href="{{route('certificate',$veh['vcode'])}}" style="color:blue;text-decoration:underline"> Generate </a> </td> -->
                                   </tr>
                                 @endforeach
