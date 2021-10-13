@@ -110,8 +110,8 @@
                                       <label for="example-tel-input" class="col-sm-2 col-form-label">Valid in Term of Status date</label>
                                       <div class="col-sm-4">
                                         <select class="form-control" name="validStatus" requried>
-                                          <option @if($vehicle['validStatus']=="yes") selected @endif  value="yes">Yes</option>
-                                          <option @if($vehicle['validExpiry']=="no") selected @endif  value="no">No</option>
+                                          <option @if($vehicle[0]->validStatus=="yes") selected @endif  value="yes">Yes</option>
+                                          <option @if($vehicle[0]->validExpiry=="no") selected @endif  value="no">No</option>
                                         </select>
                                       </div>
                                 </div>
