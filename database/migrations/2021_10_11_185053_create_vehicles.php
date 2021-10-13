@@ -27,7 +27,7 @@ class CreateVehicles extends Migration
             $table->string('exDate')->nullable();
             $table->string('validExpiry');
             $table->string('validStatus');
-            $table->string('rasic')->unique();
+            $table->string('rasic');
             $table->string('inspector')->nullable();
             $table->string('vapproval')->nullable();
             $table->string('ras_center')->nullable();

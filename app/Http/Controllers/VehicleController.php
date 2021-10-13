@@ -15,7 +15,7 @@ class VehicleController extends Controller
     }
 
     public function viewVehicles(){
-      $vehicles=DB::table('vehicles')->join('table_category','vehicles.category','=','table_category.cat_id')->orderBy('vid','DESC')->get();
+      $vehicles=DB::table('vehicles')->orderBy('vid','DESC')->get();
       return view('admin.pages.list_vehicles',compact('vehicles'));
     }
 
@@ -55,7 +55,7 @@ class VehicleController extends Controller
         'exDate' => 'required',
         'validExpiry' => 'required',
         'validStatus' => 'required',
-        'rasic' => 'required|unique:App\Vehicles,rasic',
+        'rasic' => 'required',
         'inspector' => 'required',
         'vapproval' => 'required',
         'ras_center' => 'nullable',
@@ -64,7 +64,6 @@ class VehicleController extends Controller
         'vplate.unique' => 'Vehicle with same number exists.',
         'regno.unique' => 'Vehicle with same registration no exists.',
         'chassisno.unique' => 'Vehicle with same chassis no exists.',
-        'rasic.unique' => 'RASIC No already exists.'
       ]);
 
       if(\App\Vehicles::create($req->all())){

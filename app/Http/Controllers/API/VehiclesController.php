@@ -9,6 +9,12 @@ use DB;
 
 class VehiclesController extends Controller
 {
+
+    public function getAllVehicles(){
+      $data=DB::table('vehicles')->get()->toArray();
+      return response(json_encode($data),200);
+    }
+
     public function RegisterVehicle(Request $req){
       $validate=Validator::make($req->all(),[
         'category' => 'required',
@@ -21,7 +27,7 @@ class VehiclesController extends Controller
         'exDate' => 'required',
         'validExpiry' => 'required',
         'validStatus' => 'required',
-        'rasic' => 'required|unique:App\Vehicles,rasic',
+        'rasic' => 'required',
         'inspector' => 'required',
         'vapproval' => 'required',
       ]);
