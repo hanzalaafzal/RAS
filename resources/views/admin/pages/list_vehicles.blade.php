@@ -40,7 +40,7 @@
                                   <th width="10%">Verification Code</th>
                                   <th width="10%">Category</th>
                                   <th width="10%">Vehicle Plate </th>
-                                  <th width="10%">Registration No</th>
+
                                   <th width="10%">Chassis No</th>
                                   <th width="10%">Owner</th>
 
@@ -57,7 +57,7 @@
                                     <td>{{$veh->vcode}}</td>
                                     <td>{{$veh->category}}</td>
                                     <td>{{$veh->vplate}}</td>
-                                    <td>{{$veh->regno}}</td>
+                          
                                     <td>{{$veh->chassisno}}</td>
                                     <td>{{$veh->owner}}</td>
                                     <td>{{$veh->apDate}}</td>
