@@ -15,6 +15,6 @@ class Vehicles extends Model
   ];
 
   protected $casts = [
-      'apDate' => 'date:m/d/Y',
+      'apDate' => 'date:mm/dd/Y',
   ];
 }

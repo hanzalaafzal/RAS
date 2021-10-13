@@ -34,7 +34,5 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $casts = [
-        'apDate' => 'date:m/d/Y',
-    ];
+
 }
