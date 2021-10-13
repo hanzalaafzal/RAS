@@ -13,4 +13,8 @@ class Vehicles extends Model
   protected $fillable = [
       'category', 'vcode', 'vplate','regno','chassisno','owner' , 'apDate' , 'exDate', 'validExpiry' , 'validStatus' , 'rasic' , 'inspector' ,'vapproval','ras_center'
   ];
+
+  protected $casts = [
+      'apDate' => 'date:m/d/Y',
+  ];
 }
