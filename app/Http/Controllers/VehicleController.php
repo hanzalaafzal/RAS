@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use DB;
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
+use App\Vehicles;
 
 class VehicleController extends Controller
 {
@@ -15,7 +16,8 @@ class VehicleController extends Controller
     }
 
     public function viewVehicles(){
-      $vehicles=DB::table('vehicles')->orderBy('vid','DESC')->get();
+      $vehicles=Vehicles::orderBy('vid','DESC')->get();
+    //  $vehicles=DB::table('vehicles')->orderBy('vid','DESC')->get();
       return view('admin.pages.list_vehicles',compact('vehicles'));
     }
 
