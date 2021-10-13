@@ -4,11 +4,11 @@
      <div class="brand">
          <a href="#" class="logo">
              <span>
-                 <img src="{{ asset('admin-panel/assets/images/esadqa-logo.png') }}" height="80" class="logo-md">
+                 <img src="{{asset('assets/images/OPAL_LOGO.png')}}" height="80" class="logo-md">
              </span>
              <span>
-                 <img src="{{ asset('admin-panel/assets/images/logo.png')}}" alt="logo-large" class="logo-lg logo-light">
-                 <img src="{{ asset('admin-panel/assets/images/logo-dark.png') }}" alt="logo-large" class="logo-lg logo-dark">
+                 <img src="{{asset('assets/images/OPAL_LOGO.png')}}" alt="logo-large" class="logo-lg logo-light">
+                 <img src="{{asset('assets/images/OPAL_LOGO.png')}}" alt="logo-large" class="logo-lg logo-dark">
              </span>
          </a>
      </div>
