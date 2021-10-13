@@ -10,6 +10,11 @@ use DB;
 class VehiclesController extends Controller
 {
 
+    public function getSingleVehicle($vcode){
+      $data=DB::table('vehicles')->where('vcode' ,$vcode)->get()->toArray();
+      return response(json_encode($data),200);
+    }
+
     public function getAllVehicles(){
       $data=DB::table('vehicles')->get()->toArray();
       return response(json_encode($data),200);

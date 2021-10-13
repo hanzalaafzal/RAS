@@ -51,7 +51,7 @@
                               </tr>
                               </thead>
                               <tbody>
-                                {{dd($vehicles)}}
+                              
                                 @foreach($vehicles as $veh)
                                   <tr>
                                     <td>{{$veh->vcode}}</td>
