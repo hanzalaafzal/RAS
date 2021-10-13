@@ -16,7 +16,7 @@ class VehicleController extends Controller
     }
 
     public function viewVehicles(){
-      $vehicles=Vehicles::orderBy('vid','DESC')->get();
+      $vehicles=Vehicles::orderBy('vid','DESC')->get()->toArray();
     //  $vehicles=DB::table('vehicles')->orderBy('vid','DESC')->get();
       return view('admin.pages.list_vehicles',compact('vehicles'));
     }
