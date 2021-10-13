@@ -29,7 +29,7 @@ class VehicleController extends Controller
 
       unset($req->_token);
 
-      if(Vehicles::where('vid',$req->vid)->update($req->all()) {
+      if(Vehicles::where('vid',$req->vid)->update($req->all())) {
         session()->flash('success','Success');
         return redirect()->back();
       }else{
