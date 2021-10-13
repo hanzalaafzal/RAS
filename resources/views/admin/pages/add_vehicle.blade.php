@@ -54,14 +54,6 @@
                                         <a href="#" class="badge badge-pill badge-soft-primary" onclick="makeid(10)">Generate Random</a>
                                     </div>
 
-                                    <label for="example-email-input" class="col-sm-1 col-form-label">Vehicle Plate*</label>
-                                    <div class="col-sm-3">
-                                        <input type="text" name="vplate" value="{{old('vplate')}}" class="form-control @error('vplate') is-invalid @enderror" required>
-                                        @error('vplate')
-                                        <small style="color:red">{{$message}}</small>
-                                        @enderror
-                                    </div>
-
                                 </div>
                                 <div class="form-group row">
                                     <label for="example-email-input" class="col-sm-2 col-form-label text-right">Fleet No</label>
@@ -70,7 +62,7 @@
                                     </div>
                                     <label for="example-email-input" class="col-sm-2 col-form-label text-right">Registration No*</label>
                                     <div class="col-sm-4">
-                                        <input class="form-control" type="text" value="{{old('regno')}}" name="regno">
+                                        <input class="form-control" type="text" value="{{old('vplate')}}" name="vplate">
                                         @error('regno')
                                         <small style="color">{{$message}}</small>
                                         @enderror

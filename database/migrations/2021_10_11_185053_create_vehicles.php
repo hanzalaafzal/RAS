@@ -19,7 +19,7 @@ class CreateVehicles extends Migration
             $table->string('category');
             $table->string('vplate')->unique();
             $table->string('fleet')->nullable();
-            $table->string('regno')->unique();
+            $table->string('regno')->nullable()->unique();
             $table->string('chassisno')->unique();
             $table->string('owner');
             $table->string('vmm')->nullable();

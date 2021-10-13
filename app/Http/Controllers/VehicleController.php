@@ -48,7 +48,6 @@ class VehicleController extends Controller
         'category' => 'required',
         'vcode' => 'required|unique:App\Vehicles,vcode',
         'vplate' => 'required|unique:App\Vehicles,vplate,',
-        'regno' => 'required|unique:App\Vehicles,regno',
         'chassisno' => 'required|unique:App\Vehicles,chassisno',
         'owner' => 'required',
         'apDate' => 'required',
@@ -62,7 +61,6 @@ class VehicleController extends Controller
       ],[
         'vcode.unique' => 'Verification Code exists.',
         'vplate.unique' => 'Vehicle with same number exists.',
-        'regno.unique' => 'Vehicle with same registration no exists.',
         'chassisno.unique' => 'Vehicle with same chassis no exists.',
       ]);
 

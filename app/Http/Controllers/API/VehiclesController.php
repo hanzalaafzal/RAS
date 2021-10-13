@@ -26,7 +26,6 @@ class VehiclesController extends Controller
         'category' => 'required',
         'vcode' => 'required|unique:App\Vehicles,vcode',
         'vplate' => 'required|unique:App\Vehicles,vplate,',
-        'regno' => 'required|unique:App\Vehicles,regno',
         'chassisno' => 'required|unique:App\Vehicles,chassisno',
         'owner' => 'required',
         'apDate' => 'required',
