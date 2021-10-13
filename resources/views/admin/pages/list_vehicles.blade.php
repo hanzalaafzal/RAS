@@ -54,16 +54,16 @@
 
                                 @foreach($vehicles as $veh)
                                   <tr>
-                                    <td>{{$veh->vcode}}</td>
-                                    <td>{{$veh->category}}</td>
-                                    <td>{{$veh->vplate}}</td>
-                          
-                                    <td>{{$veh->chassisno}}</td>
-                                    <td>{{$veh->owner}}</td>
-                                    <td>{{$veh->apDate}}</td>
-                                    <td>{{$veh->exDate}}</td>
-                                    <td>{{$veh->rasic}}</td>
-                                    <td> <a href="{{route('certificate',$veh->vcode)}}" style="color:blue;text-decoration:underline"> Generate </a> </td>
+                                    <td>{{$veh['vcode']}}</td>
+                                    <td>{{$veh['category']}}</td>
+                                    <td>{{$veh['vplate']}}</td>
+
+                                    <td>{{$veh['chassisno']}}</td>
+                                    <td>{{$veh['owner']}}</td>
+                                    <td>{{$veh['apDate']}}</td>
+                                    <td>{{$veh['exDate']}}</td>
+                                    <td>{{$veh['rasic']}}</td>
+                                    <td> <a href="{{route('certificate',$veh['vcode'])}}" style="color:blue;text-decoration:underline"> Generate </a> </td>
                                   </tr>
                                 @endforeach
                               </tbody>
