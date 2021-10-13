@@ -103,8 +103,8 @@
                                       <label for="example-tel-input" class="col-sm-2 col-form-label">Valid in Term of Expiry</label>
                                       <div class="col-sm-4">
                                         <select class="form-control" name="validExpiry" required>
-                                          <option @if($vehicle[0]->validExpiry=="yes") selected @endif value="yes">Yes</option>
-                                          <option @if($vehicle[0]->validExpiry=="no") selected @endif value="no">No</option>
+                                          <option @if($vehicle[0]->validExpiry=="Valid") selected @endif value="Valid">Valid</option>
+                                          <option @if($vehicle[0]->validExpiry=="Invalid") selected @endif value="Invalid">Invalid</option>
                                         </select>
                                       </div>
                                       <label for="example-tel-input" class="col-sm-2 col-form-label">Valid in Term of Status date</label>
