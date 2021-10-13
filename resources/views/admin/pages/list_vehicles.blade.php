@@ -51,11 +51,11 @@
                               </tr>
                               </thead>
                               <tbody>
-                              
+
                                 @foreach($vehicles as $veh)
                                   <tr>
                                     <td>{{$veh->vcode}}</td>
-                                    <td>{{$veh->cat_name}}</td>
+                                    <td>{{$veh->category}}</td>
                                     <td>{{$veh->vplate}}</td>
                                     <td>{{$veh->regno}}</td>
                                     <td>{{$veh->chassisno}}</td>
