@@ -10,6 +10,38 @@ use App\Vehicles;
 class VehicleController extends Controller
 {
 
+    public function updateVehicle(Request $req){
+      $req->validate([
+        'category' => 'required',
+        'vcode' => 'required',
+        'vplate' => 'required',
+        'chassisno' => 'required',
+        'owner' => 'required',
+        'apDate' => 'required',
+        'exDate' => 'required',
+        'validExpiry' => 'required',
+        'validStatus' => 'required',
+        'rasic' => 'required',
+        'inspector' => 'required',
+        'vapproval' => 'required',
+        'ras_center' => 'nullable',
+      ]);
+
+      if(Vehicle::where('vid',$req->vid)->update($req->all())){
+        session()->flash('success','Success');
+        return redirect()->back();
+      }else{
+        session()->flash('error','Error updating data');
+        return redirect()->back();
+      }
+
+
+    }
+    public function viewUpdateVehicles($vcode){
+      $vehicle=DB::table('vehicles')->where('vcode',$vcode)->get()->toArray();
+      return view('admin.pages.update',compact('vehicle'));
+    }
+
     public function addVehicles(){
       $cats=DB::table('table_category')->get();
       return view('admin.pages.add_vehicle',compact('cats'));

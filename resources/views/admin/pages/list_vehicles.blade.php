@@ -54,7 +54,7 @@
 
                                 @foreach($vehicles as $veh)
                                   <tr>
-                                    <td>{{$veh['vcode']}}</td>
+                                    <td> <a href="{{route('page.update.vehicle',$veh['vcode'])}}"></a> {{$veh['vcode']}}</td>
                                     <td>{{$veh['category']}}</td>
                                     <td>{{$veh['vplate']}}</td>
 

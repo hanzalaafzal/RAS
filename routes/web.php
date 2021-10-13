@@ -44,6 +44,6 @@ Route::middleware('auth.check')->prefix('/admin')->group(function(){
   Route::post('/vehicle/category','VehicleController@postVehicleCategories')->name('post.category');
   Route::post('/vehicle/add','VehicleController@postVehicles')->name('post.vehicle');
   Route::get('/vehicle/certificate/{vcode}','CertificateController@GenerateCertificate')->name('certificate');
-
-
+  Route::get('/vehicle/update/{vcode}','VehicleController@viewUpdateVehicles')->name('page.update.vehicle');
+  Route::post('/vehicle/update','VehicleController@updateVehicle')->name('update.vehicle');
 });
