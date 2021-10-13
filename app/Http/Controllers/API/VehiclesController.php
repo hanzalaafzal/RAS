@@ -19,7 +19,7 @@ class VehiclesController extends Controller
     }
 
     public function getAllVehicles(){
-      $data=DB::table('vehicles')->get()->toArray();
+      $data=Vehicles::all();
       return response(json_encode($data),200);
     }
 
