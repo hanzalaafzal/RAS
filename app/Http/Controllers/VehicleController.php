@@ -27,9 +27,21 @@ class VehicleController extends Controller
         'ras_center' => 'nullable',
       ]);
 
-      unset($req->_token);
-
-      if(Vehicles::where('vid',$req->vid)->update($req->all())) {
+      if(Vehicles::where('vid',$req->vid)->update([
+        'category' => $req->category,
+        'vcode' => $req->vcode,
+        'chassisno' => $req->chassisno,
+        'vplate' => $req->vplate,
+        'owner' => $req->owner,
+        'apDate' => $req->apDate,
+        'exDate' => $req->exDate,
+        'validExpiry' => $req->validExpiry,
+        'validStatus' => $req->validStatus,
+        'rasic' => $req->rasic,
+        'inspector' => $req->inspector,
+        'vapproval' => $req->vapproval,
+        'ras_center' => $req->ras_center,
+        ])) {
         session()->flash('success','Success');
         return redirect()->back();
       }else{
