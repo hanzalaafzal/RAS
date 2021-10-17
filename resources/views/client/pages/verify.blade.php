@@ -27,7 +27,7 @@
                       </td>
                   </tr>
                   <tr><th>Verification Code</th><td>
-                    
+
                       <input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value='{{request()->input("verficationCode")}}'>
 
 
@@ -39,7 +39,7 @@
               <table width="100%" class="table table-striped table-bordered table-hover ">
                     <tbody><tr><th class="info" width="30%">Vehicle Category</th><td>{{$data[0]['category']}}</td></tr>
                     <tr><th class="info" width="30%">Vehicle Fleet Number</th><td>{{$data[0]['fleet']}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Registration/plate Number </th><td>{{$data[0]['vplate']}}</td></tr>
+                    <tr><th class="info" width="30%">Vehicle Registration/plate Number </th><td translate="no">{{$data[0]['vplate']}}</td></tr>
                     <tr><th class="info" width="30%">Vehicle Chassis Number</th><td>{{$data[0]['chassisno']}}</td></tr>
                     <tr><th class="info" width="30%">Vehicle Owner </th><td>{{$data[0]['owner']}}</td></tr>
                     <tr><th class="info" width="30%">Vehicle Make &amp; Model </th><td>{{$data[0]['vmm']}}</td></tr>
