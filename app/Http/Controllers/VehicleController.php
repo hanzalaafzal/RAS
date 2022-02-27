@@ -32,28 +32,33 @@ class VehicleController extends Controller
         'vapproval' => 'required',
         'ras_center' => 'nullable',
       ]);
+      try{
 
-      if(Vehicles::where('vid',$req->vid)->update([
-        'category' => $req->category,
-        'vcode' => $req->vcode,
-        'chassisno' => $req->chassisno,
-        'vplate' => $req->vplate,
-        'owner' => $req->owner,
-        'apDate' => $req->apDate,
-        'exDate' => $req->exDate,
-        'validExpiry' => $req->validExpiry,
-        'validStatus' => $req->validStatus,
-        'rasic' => $req->rasic,
-        'inspector' => $req->inspector,
-        'vapproval' => $req->vapproval,
-        'ras_center' => $req->ras_center,
-        ])) {
-        session()->flash('success','Success');
+        DB::table('vehicles')->where('vid',$req->vid)->update([
+          'category' => $req->category,
+          'vcode' => $req->vcode,
+          'chassisno' => $req->chassisno,
+          'vplate' => $req->vplate,
+          'owner' => $req->owner,
+          'apDate' => $req->apDate,
+          'exDate' => $req->exDate,
+          'validExpiry' => $req->validExpiry,
+          'validStatus' => $req->validStatus,
+          'rasic' => $req->rasic,
+          'inspector' => $req->inspector,
+          'vapproval' => $req->vapproval,
+          'ras_center' => $req->ras_center,
+        ]);
+
+        session()->flash('success','Vehicle Updated');
         return redirect()->back();
-      }else{
+
+      }catch(\Exception $ex){
+        dd($ex->getMessage());
         session()->flash('error','Error updating data');
         return redirect()->back();
       }
+
 
 
     }
