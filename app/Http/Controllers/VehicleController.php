@@ -48,6 +48,7 @@ class VehicleController extends Controller
           'inspector' => $req->inspector,
           'vapproval' => $req->vapproval,
           'ras_center' => $req->ras_center,
+          'vmm' => $req->vmm
         ]);
 
         session()->flash('success','Vehicle Updated');
