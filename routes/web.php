@@ -25,6 +25,11 @@ Route::get('/vehicles/verify','VehicleController@verifyVehicle')->name('verifyve
 
 Route::get('/vehicle/verify/{code}','VehicleController@verifyVehicle')->name('');
 
+//Learner Verification
+Route::get('/learner/verify','CertificateController@viewVerifyLearner')->name('certificate.view');
+
+Route::get('/learners/verify','CertificateController@viewCertificate')->name('verify.certificate');
+
 Route::post('/authenticate','LoginController@auth')->name('authenticate');
 
 Route::middleware('auth.check')->prefix('/admin')->group(function(){
@@ -47,4 +52,11 @@ Route::middleware('auth.check')->prefix('/admin')->group(function(){
   Route::get('/vehicle/update/{vcode}','VehicleController@viewUpdateVehicles')->name('page.update.vehicle');
   Route::post('/vehicle/update','VehicleController@updateVehicle')->name('update.vehicle');
   Route::get('/vehicle/delete/{vcode}','VehicleController@deleteVehicle')->name('delete.vehicle');
+
+  Route::get('/learner/add/','CertificateController@viewAddLeaner')->name('add.learner');
+  Route::post('/learner/post','CertificateController@addLearner')->name('learner.post');
+  Route::get('/leaners/list','CertificateController@viewLeanersList')->name('learner.list');
+  Route::get('/learners/delete/{id}','CertificateController@deleteCertificate')->name('delete.learner');
+
+
 });

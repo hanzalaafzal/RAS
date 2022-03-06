@@ -41,9 +41,9 @@
                     <a class="dropdown-toggle" data-toggle="dropdown">RAS Centre <span class="fa fa-angle-down"></span>
                     </a>
                         <ul class="dropdown-menu">
-                              <li><a href="CenterApproved.jsp.html">Approved RAS Centre</a></li>
-                              <li><a href="StartTRRegistration.jsp.html">Register your Centre</a></li>
-                              <li><a href="Verify.jsp.html">Verify Certificate</a> </li>
+                              <li><a href="#">Approved RAS Centre</a></li>
+                              <li><a href="#">Register your Centre</a></li>
+                              <li><a href="{{route('certificate.view')}}">Verify Learner Certificate</a> </li>
                               <li><a href="{{route('verifyvehicle')}}">Verify RAS Vehicles</a> </li>
                         </ul>
                   </li>

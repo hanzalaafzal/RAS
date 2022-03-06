@@ -158,7 +158,7 @@
     </div><!-- container -->
 
     <footer class="footer text-center text-sm-left">
-        &copy; {{date('Y')}} RAS <span class="d-none d-sm-inline-block float-right">Crafted with <i class="mdi mdi-heart text-danger"></i> by Hanzala</span>
+        &copy; {{date('Y')}} RAS <span class="d-none d-sm-inline-block float-right">Crafted with <i class="mdi mdi-heart text-danger"></i></span>
     </footer><!--end footer-->
 </div>
 @endsection

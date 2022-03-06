@@ -35,11 +35,15 @@
              </li>
 
              <hr class="hr-dashed hr-menu">
-             <li class="menu-label my-2">Accounts</li>
-             <li>
-                 <a href="#"><i class="align-self-center menu-icon mdi mdi-account-check-outline"></i><span>Administrators</span></a>
-             </li>
 
+             <li>
+                 <a href="javascript: void(0);"><i class="mdi mdi-account-check-outline"></i><span>Certificates</span><span class="menu-arrow"><i class="mdi mdi-chevron-right"></i></span></a>
+                 <ul class="nav-second-level" aria-expanded="false">
+                     <li class="nav-item"><a class="nav-link" href="{{route('add.learner')}}"><i class="ti-control-record"></i>New Leaners Certificate</a></li>
+                     <li class="nav-item"><a class="nav-link" href="{{route('learner.list')}}"><i class="ti-control-record"></i>List All</a></li>
+                 </ul>
+             </li>
+        
               <hr class="hr-dashed hr-menu">
               <li>
                <a href="{{route('logout')}}"><i data-feather="log-out" class="align-self-center menu-icon"></i><span>Logout</span></a>

@@ -45,7 +45,7 @@
                     <tr><th class="info" width="30%">Vehicle Make &amp; Model </th><td>{{$data[0]['vmm']}}</td></tr>
                     <tr><th class="info">Approval Date</th><td>{{$data[0]['apDate']}}</td></tr>
                     <tr><th class="info">Expiry Date</th><td>{{$data[0]['exDate']}}</td></tr>
-                    <tr><th class="info" width="30%">Certificated by RAS Center</th><td>{{$data[0]['ras_center']}}</td></tr>
+                    <tr><th class="info" width="30%">Certificated by RAS Center</th><td>Yes</td></tr>
                     <tr><th class="info">Valid in Term of Expiry Date</th><td class="success"> {{$data[0]['validExpiry']}} </td></tr>
                     <tr><th class="info">Valid in Term of Status Date</th><td class="success"> {{$data[0]['validStatus']}}</td></tr>
 
