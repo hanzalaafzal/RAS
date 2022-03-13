@@ -254,10 +254,10 @@
  <div class="col-md-12 col-lg-12  col-sm-12 col-xs-12">
 
     <br/><br/>
-      <form >
+      <form action="{{route('verify.certificate')}}" method="get">
          <table class=" table table-hover">
              <tr>
-                 <th width="90%"><input type="text" name="verficationCode" id="verficationCode" class="form-control" value="3vdqPNgY" placeholder="Enter the Verification Code"/></th>
+                 <th width="90%"><input type="text" name="verficationCode" id="verficationCode" class="form-control" value="{{$data[0]->learner_vcode}}" placeholder="Enter the Verification Code"/></th>
                  <td><button class="btn btn-primary" type="submit"><span class="fa fa-search" title="Verify Learner By Verification Number "></span></button></td>
              </tr>
          </table>
