@@ -4,61 +4,74 @@
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pageSection">
 <link href="{{asset('assets/css/fontNada.css')}}" rel="stylesheet">
 <link href="{{asset('assets/css/fonts.css')}}" rel="stylesheet" type="text/css" media="all">
-
+<style media="screen">
+  .table thead > tr > th {
+    padding: 10px 70px 0px 30% !important;
+    border-bottom: 0px !important;
+  }
+  *{
+    font-family: 'Merriweather','Century Gothic','FontOPAL',"Helvetica Neue",sans-serif;
+  }
+</style>
     <div class="col-md-12 col-lg-12  col-sm-12 col-xs-12">
-      <h1 class="title-MaisaHeader" style="margin-bottom: -15px;z-index: -3">Verify RAS Vehicles</h1>
+      <h1 class="" style=";z-index: -3">{{$data[0]->learner_name}}</h1>
       <span style="color:white;margin-bottom: -150px;z-index: -3">> </span>
       <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.jsp.html">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Verify RAS Vehicles</li>
-          </ol>
+
       </nav>
     </div>
-    <div class="col-md-12 col-lg-12  col-sm-12 col-xs-12">
-
-
+    <div class="col-md-12 col-lg-12  col-sm-12 col-xs-12" style="overflow:scroll">
           <form>
-              <table class='table table-bordered'>
-                  <tr>
-                      <th>Verification method</th><td>
-                          <input type='radio' name='method' value='false' onchange="checkMethod();" checked="true"> By Verification Code
-                          <input type='radio' name='method' value='true' onchange="checkMethod();"> By Vehicle Plate/Regis Number
-                      </td>
-                  </tr>
-                  <tr><th>Verification Code</th><td>
 
-                      <input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value='{{request()->input("verficationCode")}}'>
+              <table width="100%" class="table table-striped table-bordered table-hover" >
+                    <tbody style="overflow:scroll">
+                      <tr>
+                        <th class="info" width="20%">
+                          <img style="width:300px" src="{{asset('uploads/members/').'/'.$data[0]->image_path}}" alt="">
+                        </th>
+                        <td>
+                          <table width="100%">
+                            <thead style="">
+                              <th > <h2>Profile</h2> </th>
+                            </thead>
+                            <tbody style="font-size:15px">
+                              <td style="border:1px solid black"> <p>Nationality</p> </td>
+                              <td style="border:1px solid black"> <p>{{$data[0]->learner_nationality}}</p> </td>
+                            </tbody>
+                          </table>
+                          <table width="100%">
+                            <thead style="">
+                              <th > <h2>Certificated</h2> </th>
+                            </thead>
+                            <tbody style="font-size:15px">
+                              <tr>
+                                <th style="border:1px solid black"> <b>Course/Program</b> </th>
+                                <th style="border:1px solid black"> <b>Category</b> </th>
+                                <th style="border:1px solid black"> <b>Training Center</b> </th>
+                                <th style="border:1px solid black"> <b>Assessment Center</b> </th>
+                                <th style="border:1px solid black"> <b>	Expiry Date</b> </th>
+                              </tr>
+                              @foreach($course as $cr)
+                                <tr>
+                                  <td style="border:1px solid black"> <p>{{$cr->course}}</p> </td>
+                                  <td style="border:1px solid black"> <p>{{$cr->category}}</p> </td>
 
+                                  <td style="border:1px solid black"> <p>{{$cr->tr_center}}</p> </td>
 
-                  </td></tr>
-                  <tr><th>Vehicle Plate Number </th><td><input type='text' class='form-control' name='plateNumber' id='plateNumber' readonly="true" value=''></td></tr>
-                  <tr><th colspan="2" class='text-center'><button class='btn btn-primary' type='submit'>Search <span class='fa fa-search '></span></button></th></tr>
+                                  <td style="border:1px solid black"> <p>{{$cr->as_center}}</p> </td>
+
+                                  <td style="border:1px solid black"> <p>{{$cr->expiry}}</p> </td>
+
+                                </tr>
+                              @endforeach
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                </tbody>
               </table>
-              @if(!empty($data))
-              <table width="100%" class="table table-striped table-bordered table-hover ">
-                    <tbody><tr><th class="info" width="30%">Vehicle Category</th><td>{{$data[0]['category']}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Fleet Number</th><td>{{$data[0]['fleet']}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Registration/plate Number </th><td translate="no">{{$data[0]['vplate']}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Chassis Number</th><td>{{$data[0]['chassisno']}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Owner </th><td>{{$data[0]['owner']}}</td></tr>
-                    <tr><th class="info" width="30%">Vehicle Make &amp; Model </th><td>{{$data[0]['vmm']}}</td></tr>
-                    <tr><th class="info">Approval Date</th><td>{{$data[0]['apDate']}}</td></tr>
-                    <tr><th class="info">Expiry Date</th><td>{{$data[0]['exDate']}}</td></tr>
-                    <tr><th class="info" width="30%">Certificated by RAS Center</th><td>Yes</td></tr>
-                    <tr><th class="info">Valid in Term of Expiry Date</th><td class="success"> {{$data[0]['validExpiry']}} </td></tr>
-                    <tr><th class="info">Valid in Term of Status Date</th><td class="success"> {{$data[0]['validStatus']}}</td></tr>
+              
 
-                    <!--tr><th class='info'>Is Current</th><td class='danger'>No, The Vehicle is Re-examnation </td></tr-->
-
-                    <tr><th class="info">QR</th><td><center><img src="data:image/svg+xml;base64,{{ $qr }}" class="img-responsive"></center></td></tr>
-                </tbody></table>
-
-                @else
-                    @if(session('error'))
-                    <div class="alert alert-danger" role="alert"><span class="fa fa-times-circle-o"></span> {{session('error')}}</div>
-                    @endif
-                @endif
           </form>
 
 
@@ -67,24 +80,3 @@
 </div>
 
 @endsection
-<script>
-    function checkMethod(){
-        var mobileNumberValue=$("input[name='method']:checked").val();
-        if(mobileNumberValue===null||mobileNumberValue.length===0||mobileNumberValue.trim()===""||mobileNumberValue.trim()==="null"){
-                mobileNumberValue="true";
-        }
-        if(mobileNumberValue===false || mobileNumberValue==="false"){
-            document.getElementById('plateNumber').value="";
-            document.getElementById('plateNumber').setAttribute("readonly",true);
-            document.getElementById('verficationCode').setAttribute("required",true);
-            document.getElementById('verficationCode').removeAttribute("readonly");
-            document.getElementById('plateNumber').removeAttribute("required");
-        }else{
-            document.getElementById('verficationCode').value="";
-            document.getElementById('verficationCode').setAttribute("readonly",true);
-            document.getElementById('plateNumber').setAttribute("required",true);
-            document.getElementById('plateNumber').removeAttribute("readonly");
-            document.getElementById('verficationCode').removeAttribute("required");
-        }
-    }
-</script>

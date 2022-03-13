@@ -18,18 +18,15 @@
     <div class="col-md-12 col-lg-12  col-sm-12 col-xs-12">
 
 
-          <form>
+          <form action="{{route('verify.certificate')}}" method="get">
+      
               <table class='table table-bordered'>
-
                   <tr><th>Verification Number</th><td>
                       <input type='text' class='form-control' name='verficationCode' id='verficationCode' required="true" value=''>
                   </td></tr>
                   <tr><th colspan="2" class='text-center'><button class='btn btn-primary' type='submit'>Verify <span class='fa fa-search '></span></button></th></tr>
               </table>
-
           </form>
-
-
     </div>
 
 </div>
