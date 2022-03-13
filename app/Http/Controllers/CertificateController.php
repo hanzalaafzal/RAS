@@ -103,6 +103,6 @@ class CertificateController extends Controller
       }
       $course=DB::table('leaner_programs')->where('fk_learner',$data[0]->learner_id)->get()->toArray();
 
-      return view('client.pages.verify',compact('data','course'));
+      return view('client.pages.verify_cert',compact('data','course'));
     }
 }
