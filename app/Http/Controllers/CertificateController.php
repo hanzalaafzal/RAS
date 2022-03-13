@@ -99,7 +99,7 @@ class CertificateController extends Controller
     public function viewCertificate(Request $req){
       $data=DB::table('leaners')->where('learner_vcode',$req->verficationCode)->get()->toArray();
       if(empty($data)){
-        return respone('',404);
+        return response('',404);
       }
       $course=DB::table('leaner_programs')->where('fk_learner',$data[0]->learner_id)->get()->toArray();
 
