@@ -1,0 +1,272 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 8, 2020, 10:37:08 AM
+    Author     : @author Maisa Al-Mashaifari | <Business Developer at Global Computers>
+*/
+
+
+/* ===================================== Header CSS ================================== */
+.cover {
+  background-image: url("../images/B21.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 250px; }
+  .cover .cover-layer {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px; }
+
+.web-portion {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #FFF;
+  margin-top: 2%;
+  padding: 0px;
+  margin-bottom: 2%; }
+
+@media screen and (max-width: 767px) {
+  .profil-det-img {
+    border-bottom: 1px solid #CCCCCCB3; } }
+.profil-det-img .dp {
+  padding: 15px;
+  padding-right: 5px; }
+  .profil-det-img .dp img {
+    border-radius: 50px;
+    width: 80px; }
+    @media screen and (max-width: 850px) {
+      .profil-det-img .dp img {
+        width: 60px; } }
+.profil-det-img .pd {
+  padding: 10px;
+  vertical-align: middle;
+  margin: auto 0; }
+  .profil-det-img .pd h2 {
+    font-size: 22px;
+    margin-bottom: 0px; }
+    @media screen and (max-width: 850px) {
+      .profil-det-img .pd h2 {
+        font-size: 18px; } }
+  .profil-det-img .pd p {
+    font-size: 14px; }
+
+.eml-mob {
+  border-right: 1px solid #CCC;
+  border-left: 1px solid #CCC; }
+  @media screen and (max-width: 767px) {
+    .eml-mob {
+      border-bottom: 1px solid #CCCCCCB3;
+      padding: 5px 30px;
+      margin-top: 0px; } }
+  .eml-mob ul {
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 21px; }
+    @media screen and (max-width: 767px) {
+      .eml-mob ul {
+        margin-top: 0px !important; } }
+    @media screen and (max-width: 850px) {
+      .eml-mob ul {
+        margin-top: 13px; } }
+    .eml-mob ul li {
+      padding: 5px 10px;
+      font-size: 16px;
+      padding-left: 0px; }
+      @media screen and (max-width: 850px) {
+        .eml-mob ul li {
+          font-size: 14px; } }
+      .eml-mob ul li i {
+        font-size: 18px;
+        margin-right: 10px; }
+
+.map-mark i {
+  padding: 10px;
+  margin: auto;
+  font-size: 44px;
+  padding-left: 0px;
+  margin-right: 10px; }
+  @media screen and (max-width: 850px) {
+    .map-mark i {
+      font-size: 32px; } }
+.map-mark p {
+  font-size: 16px;
+  margin: auto 0;
+  padding-right: 15px; }
+  @media screen and (max-width: 850px) {
+    .map-mark p {
+      font-size: 14px; } }
+@media screen and (max-width: 767px) {
+  .map-mark {
+    padding-left: 30px; } }
+
+.nav-detail .nav-tabs {
+  background-color: #cccccc47; }
+  .nav-detail .nav-tabs .nav-link {
+    padding: 10px 40px;
+    font-weight: 300; }
+    @media screen and (max-width: 746px) {
+      .nav-detail .nav-tabs .nav-link {
+        padding: 10px 20px; } }
+    @media screen and (max-width: 544px) {
+      .nav-detail .nav-tabs .nav-link {
+        padding: 10px; } }
+    @media screen and (max-width: 448px) {
+      .nav-detail .nav-tabs .nav-link {
+        font-size: 14px; } }
+    @media screen and (max-width: 406px) {
+      .nav-detail .nav-tabs .nav-link {
+        padding: 10px 5px;
+        font-size: 13px; } }
+  .nav-detail .nav-tabs .nav-link.active {
+    background-color: #cccccc47;
+    border-top: 0px;
+    border-bottom: 3px solid #CE2E26;}
+
+.home-det .big-img {
+  border-right: 1px solid #cccccc82;
+  padding: 15px;
+  text-align: center; }
+.home-det .home-dat {
+  padding: 25px; }
+  .home-det .home-dat h3 {
+    font-style: 22px; }
+  .home-det .home-dat p {
+    text-indent: 20px;
+    font-size: 15px; }
+  .home-det .home-dat .links {
+    padding: 50px 0px; }
+    .home-det .home-dat .links .btn-link li {
+      float: left;
+      padding: 5px 10px;
+      border-radius: 15px;
+      border: 1px solid #888;
+      margin-right: 10px;
+      color: #888; }
+      @media screen and (max-width: 483px) {
+        .home-det .home-dat .links .btn-link li {
+          margin-right: 5px !important;
+          width: 100%;
+          margin-bottom: 10px; } }
+      .home-det .home-dat .links .btn-link li i {
+        margin-top: 5px; }
+      .home-det .home-dat .links .btn-link li a {
+        color: #888; }
+    .home-det .home-dat .links .social-link {
+      float: right; }
+      .home-det .home-dat .links .social-link li {
+        float: left;
+        padding: 5px;
+        border: 1px solid #888;
+        border-radius: 50px;
+        width: 35px;
+        text-align: center;
+        margin-right: 10px; }
+        @media screen and (max-width: 483px) {
+          .home-det .home-dat .links .social-link li {
+            margin-right: 5px !important;
+            margin-top: 20px; } }
+    @media screen and (max-width: 1200px) {
+      .home-det .home-dat .links {
+        padding: 20px 0px; }
+        .home-det .home-dat .links .social-link {
+          margin-top: 20px; } }
+  .home-det .home-dat .addrss-list {
+    width: 100%; }
+    .home-det .home-dat .addrss-list tr {
+      border-left: 1px solid #CCC; }
+      .home-det .home-dat .addrss-list tr td {
+        padding: 13px 10px;
+        border: 1px solid #CCC; }
+      .home-det .home-dat .addrss-list tr th {
+        border-top: 1px solid #CCC;
+        border-bottom: 1px solid #CCC;
+        padding: 13px 10px; }
+        @media screen and (max-width: 1200px) {
+          .home-det .home-dat .addrss-list tr th {
+            width: 200px; } }
+        @media screen and (max-width: 450px) {
+          .home-det .home-dat .addrss-list tr th {
+            width: 120px; } }
+
+.profile-tab {
+  padding: 50px; }
+  @media screen and (max-width: 940px) {
+    .profile-tab {
+      padding: 30px 10px; } }
+  .profile-tab .profile-desic {
+    text-align: center; }
+  .profile-tab .sec-title {
+    padding: 20px;
+    text-align: center;
+    font-size: 22px; }
+  .profile-tab .service-ro .singe-servic {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 10px; }
+    .profile-tab .service-ro .singe-servic i {
+      font-size: 42px;
+      margin-bottom: 20px;
+      color: #00ab9f; }
+    .profile-tab .service-ro .singe-servic h4 {
+      font-size: 19px;
+      margin-bottom: 10px; }
+    .profile-tab .service-ro .singe-servic p {
+      font-size: 14px; }
+
+.education-detail {
+  padding: 50px; }
+  .education-detail .service {
+        border:1px solid red; }
+  @media screen and (max-width: 940px) {
+    .education-detail {
+      padding: 30px 10px; } }
+  .education-detail .sec-title {
+    padding: 20px;
+    text-align: center;
+    font-size: 22px; }
+  .education-detail .service {
+    padding: 20px; }
+    .education-detail .service .resume-dat {
+      text-align: center; }
+
+.portfolio-detail {
+  padding: 20px; }
+  .portfolio-detail .gallery img {
+    margin-top: 20px; }
+
+.contact-tab {
+  padding: 20px; }
+  .contact-tab iframe {
+    width: 100%;
+    height: 400px; }
+
+@media screen and (max-width: 575px) {
+  .rgbf {
+    text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
+
+
+.margin-HTop {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    margin-top: -5% !important;
+    border-top-left-radius:  15px !important;
+    border-top-right-radius:  15px !important;
+    width:96% !important;
+    background-color: white;
+
+}
+.margin-HBottom {
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+    border-bottom-left-radius:  15px !important;
+    border-bottom-right-radius:  15px !important;
+    width:96% !important;
+    background-color: white;
+
+}
