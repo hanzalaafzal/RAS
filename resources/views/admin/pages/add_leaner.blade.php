@@ -35,15 +35,19 @@
                       <div class="card-body">
                               <div class="col-md-12">
                                 <div class="form-group row">
-                                  <div class="col-sm-4">
+                                  <div class="col-sm-3">
                                     <label class="form-label">Name*</label>
                                     <input type="text" class="form-control" autocomplete="off" name="name" value="{{old('name')}}" required>
                                   </div>
-                                  <div class="col-sm-4">
+                                  <div class="col-sm-3">
                                     <label class="form-label">Nationality*</label>
                                     <input type="text" class="form-control" autocomplete="off" name="nationality" value="{{old('nationality')}}" required>
                                   </div>
-                                  <div class="col-sm-4">
+                                  <div class="col-sm-3">
+                                    <label class="form-label">ROP License*</label>
+                                    <input type="text" class="form-control" autocomplete="off" name="rop" value="{{old('rop')}}" required>
+                                  </div>
+                                  <div class="col-sm-3">
                                     <label class="form-label">Image*</label>
                                     <input type="file" class="form-control" name="file_image" required>
                                   </div>

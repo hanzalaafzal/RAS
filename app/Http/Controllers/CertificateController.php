@@ -44,6 +44,7 @@ class CertificateController extends Controller
         $req->validate([
           'certificates' => 'required',
           'file_image' => 'required|image',
+          'rop' => 'required|unique:leaners,rop_no'
         ],[
           'certificates.required' => 'Add Certificates',
           'file_image.image' => 'Upload Image Only',
@@ -60,6 +61,7 @@ class CertificateController extends Controller
           'learner_vcode' => $this->generateCode(7),
           'created_at' => now(),
           'image_path' => $fileName.'.'.$fileExt,
+          'rop_no' => $req->rop,
         ]);
 
         foreach($req->certificates as $cert){
@@ -97,7 +99,7 @@ class CertificateController extends Controller
     }
 
     public function viewCertificate(Request $req){
-      
+
       $data=DB::table('leaners')->where('learner_vcode',$req->verficationCode)->get()->toArray();
       if(empty($data)){
         return response('',404);

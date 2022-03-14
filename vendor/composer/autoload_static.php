@@ -601,6 +601,7 @@ class ComposerStaticInit0d3ab70ef58619a430cf42d9f3f744af
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\API\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/API/AuthController.php',
+        'App\\Http\\Controllers\\API\\CertificateController' => __DIR__ . '/../..' . '/app/Http/Controllers/API/CertificateController.php',
         'App\\Http\\Controllers\\API\\VehiclesController' => __DIR__ . '/../..' . '/app/Http/Controllers/API/VehiclesController.php',
         'App\\Http\\Controllers\\CertificateController' => __DIR__ . '/../..' . '/app/Http/Controllers/CertificateController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
