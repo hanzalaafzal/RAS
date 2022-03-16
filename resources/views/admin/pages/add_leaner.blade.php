@@ -37,15 +37,15 @@
                                 <div class="form-group row">
                                   <div class="col-sm-3">
                                     <label class="form-label">Name*</label>
-                                    <input type="text" class="form-control" autocomplete="off" name="name" value="{{old('name')}}" required>
+                                    <input type="text" class="form-control" autocomplete="off" name="name" value="{{old('name')}}" >
                                   </div>
                                   <div class="col-sm-3">
                                     <label class="form-label">Nationality*</label>
-                                    <input type="text" class="form-control" autocomplete="off" name="nationality" value="{{old('nationality')}}" required>
+                                    <input type="text" class="form-control" autocomplete="off" name="nationality" value="{{old('nationality')}}" >
                                   </div>
                                   <div class="col-sm-3">
                                     <label class="form-label">ROP License*</label>
-                                    <input type="text" class="form-control" autocomplete="off" name="rop" value="{{old('rop')}}" required>
+                                    <input type="text" class="form-control" autocomplete="off" name="rop" value="{{old('rop')}}" >
                                   </div>
                                   <div class="col-sm-3">
                                     <label class="form-label">Image*</label>
@@ -61,25 +61,23 @@
 
                                                   <div class="col-sm-2">
                                                       <label class="form-label">Course/Program*</label>
-                                                      <input type="text" class="form-control" autocomplete="off" name="course" required>
-
+                                                      <input type="text" class="form-control" autocomplete="off" name="course" >
                                                   </div><!--end col-->
-
                                                   <div class="col-sm-2">
                                                       <label class="form-label">Category*</label>
-                                                      <input type="text" name="category" autocomplete="off" class="form-control" required>
+                                                      <input type="text" name="category" autocomplete="off" class="form-control" >
                                                   </div><!--end col-->
                                                   <div class="col-sm-2">
                                                       <label class="form-label">Training Center*</label>
-                                                      <textarea name="tr_center" rows="1" class="form-control" autocomplete="off" required></textarea>
+                                                      <textarea name="tr_center" rows="1" class="form-control" autocomplete="off" ></textarea>
                                                   </div><!--end col-->
                                                   <div class="col-sm-2">
                                                       <label class="form-label">Assessment Center*</label>
-                                                      <textarea name="as_center" rows="1" class="form-control" autocomplete="off" required></textarea>
+                                                      <textarea name="as_center" rows="1" class="form-control" autocomplete="off" ></textarea>
                                                   </div><!--end col-->
                                                   <div class="col-sm-2">
                                                       <label class="form-label">Expiry*</label>
-                                                      <input type="date" name="expiry" class="form-control" autocomplete="off" required>
+                                                      <input type="date" name="expiry" class="form-control" autocomplete="off" >
                                                   </div><!--end col-->
                                                   <div class="col-sm-1">
                                                       <span data-repeater-delete="" class="btn btn-outline-danger">
