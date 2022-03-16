@@ -76,6 +76,10 @@
                                                       <textarea name="as_center" rows="1" class="form-control" autocomplete="off" ></textarea>
                                                   </div><!--end col-->
                                                   <div class="col-sm-2">
+                                                      <label class="form-label">Issue*</label>
+                                                      <input type="date" name="issue" class="form-control" autocomplete="off" >
+                                                  </div><!--end col-->
+                                                  <div class="col-sm-2">
                                                       <label class="form-label">Expiry*</label>
                                                       <input type="date" name="expiry" class="form-control" autocomplete="off" >
                                                   </div><!--end col-->

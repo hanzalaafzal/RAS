@@ -42,16 +42,19 @@ class CertificateController extends Controller
       try{
         //dd($req->all());
         $req->validate([
-          'certificates' => 'required',
-          'file_image' => 'required|image',
+          'file_image' => 'image',
           'rop' => 'required|unique:leaners,rop_no'
         ],[
-          'certificates.required' => 'Add Certificates',
           'file_image.image' => 'Upload Image Only',
         ]);
-        $fileName=md5(uniqid().$req->file_image->getClientOriginalName());
-        $fileExt=$req->file_image->getClientOriginalExtension();
-        $path=request()->file('file_image')->move(base_path().'/public/uploads/members/',$fileName.'.'.$fileExt);
+        $fileName='';
+        $fileExt='';
+        if(!empty($req->file_image)){
+          $fileName=md5(uniqid().$req->file_image->getClientOriginalName());
+          $fileExt=$req->file_image->getClientOriginalExtension();
+          $path=request()->file('file_image')->move(base_path().'/public/uploads/members/',$fileName.'.'.$fileExt);
+        }
+
 
         DB::beginTransaction();
 
@@ -71,7 +74,8 @@ class CertificateController extends Controller
             'category' => $cert['category'] ,
             'tr_center' => $cert['tr_center'],
             'as_center' => $cert['as_center'],
-            'expiry' => $cert['expiry']
+            'expiry' => $cert['expiry'],
+            'issue' => $cert['issue']
           ]);
         }
         DB::commit();
