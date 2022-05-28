@@ -63,7 +63,9 @@
                                               <li>Category: {{$pg->category}} </li>
                                               <li>Training Centers: {{$pg->tr_center}}</li>
                                               <li>Assessment Centers: {{$pg->as_center}}</li>
+                                              <li>Issue: {{$pg->issue}}</li>
                                               <li>Expiry: {{$pg->expiry}}</li>
+
                                             </ul>
 
                                           </li>
